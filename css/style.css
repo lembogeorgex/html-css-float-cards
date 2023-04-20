@@ -26,6 +26,7 @@ body{
     font-family: Fredoka, monospace;
 }
 
+/* Header */
 header{
     text-align: center;
     margin: 2.5rem;
@@ -38,4 +39,30 @@ header h3{
     margin-top: 3rem;
     font-weight: 200;
 
+}
+
+/* Main */
+
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.column{
+    float: left;
+    width: calc(100% / 3 - 2rem);
+    height: 100px;
+    background-color: black;
+    margin: 1rem;
+    
+}
+
+.clearfix img{
+    width: 100px;
+}
+
+
+.content{
+    float: left;
 }
