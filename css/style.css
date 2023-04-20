@@ -14,3 +14,28 @@ Rose: rgb(229,49,112) */
 :root{
     --rose:rgb(229,49,112)
 }
+
+
+/* Generics */
+.container{
+    max-width: 1080px;
+    margin: auto;
+}
+
+body{
+    font-family: Fredoka, monospace;
+}
+
+header{
+    text-align: center;
+    margin: 2.5rem;
+}
+header h1{
+    font-size: 2.5rem;
+    color: var(--rose);
+}
+header h3{
+    margin-top: 3rem;
+    font-weight: 200;
+
+}
