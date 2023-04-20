@@ -1,0 +1,16 @@
+/* CSS RESET */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COLOR PALETTE
+Rose: rgb(229,49,112) */
+
+
+/* Custom Properties */
+
+:root{
+    --rose:rgb(229,49,112)
+}
