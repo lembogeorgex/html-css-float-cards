@@ -44,25 +44,16 @@ header h3{
 /* Main */
 
 
-.clearfix::after{
+
+.row .clearfix{
     content: "";
     display: table;
     clear: both;
 }
 .column{
+    width: calc(100% / 3 - 4rem);
+    height: 80px;
+    background-color: aquamarine;
     float: left;
-    width: calc(100% / 3 - 2rem);
-    height: 100px;
-    background-color: black;
-    margin: 1rem;
-    
-}
-
-.clearfix img{
-    width: 100px;
-}
-
-
-.content{
-    float: left;
+    margin: 0 2rem;
 }
